@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-    if(startsWith(a,e,i,o,u)){
+    if(startsWith(a),startsWith(e),startsWith(i),startsWith(o),startsWith(u)){
         return 'an'+ word;
     }else{
         return 'a'+ word;
